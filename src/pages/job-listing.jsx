@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/select";
 
 import { getCompanies } from "@/api/apicompanies";
-import { getJobs } from "@/api/apiJobs";
+import { getJobs } from "@/api/apijobs";
 
 const JobListing = () => {
   const [searchQuery, setSearchQuery] = useState("");
