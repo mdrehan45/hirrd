@@ -14,7 +14,7 @@ import {
   import { zodResolver } from "@hookform/resolvers/zod";
   import { useForm } from "react-hook-form";
   import useFetch from "@/hooks/use-fetch";
-  import { addNewCompany } from "@/api/apiCompanies";
+  import { addNewCompany } from "@/api/apicompanies";
   import { BarLoader } from "react-spinners";
   import { useEffect } from "react";
   
